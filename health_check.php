@@ -1,5 +1,16 @@
-<?php
+<html>
+<head>
+<title>Formulario de entrada del dato</title>
+</head>
+<body>
 
-echo "Hello, OpenShift Enterprise... nice to meet you.";
+<form method="post" action="pagina2.php">
+Ingrese su nombre:
+<input type="text" name="nombre">
+<br>
+<input type="submit" value="confirmar">
+</form>
 
-?>
+</body>
+</html>
+
